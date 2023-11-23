@@ -1,0 +1,96 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@cms/sample-components/domain": [
+        "libs/sample-components/domain/src/index.ts"
+      ],
+      "@cms/sample-components/feature-components": [
+        "libs/sample-components/feature-components/src/index.ts"
+      ],
+      "@cms/sample-components/feature-home": [
+        "libs/sample-components/feature-home/src/index.ts"
+      ],
+      "@cms/sample-components/ui-tpa": [
+        "libs/sample-components/ui-tpa/src/index.ts"
+      ],
+      "@cms/sample-components/util-theme": [
+        "libs/sample-components/util-theme/src/index.ts"
+      ],
+      "@ims/auth-management/domain": [
+        "libs/auth-management/domain/src/index.ts"
+      ],
+      "@ims/auth-management/feature-auth": [
+        "libs/auth-management/feature-auth/src/index.ts"
+      ],
+      "@ims/case-management/domain": [
+        "libs/case-management/domain/src/index.ts"
+      ],
+      "@ims/case-management/feature-case": [
+        "libs/case-management/feature-case/src/index.ts"
+      ],
+      "@ims/case-management/feature-home": [
+        "libs/case-management/feature-home/src/index.ts"
+      ],
+      "@ims/case-management/ui-tpa": [
+        "libs/case-management/ui-tpa/src/index.ts"
+      ],
+      "@ims/case-management/util-theme": [
+        "libs/case-management/util-theme/src/index.ts"
+      ],
+      "@ims/reports-management/domain": [
+        "libs/reports-management/domain/src/index.ts"
+      ],
+      "@ims/reports-management/feature-home": [
+        "libs/reports-management/feature-home/src/index.ts"
+      ],
+      "@ims/reports-management/feature-report": [
+        "libs/reports-management/feature-report/src/index.ts"
+      ],
+      "@ims/reports-management/ui-tpa": [
+        "libs/reports-management/ui-tpa/src/index.ts"
+      ],
+      "@ims/reports-management/util-theme": [
+        "libs/reports-management/util-theme/src/index.ts"
+      ],
+      "@ims/user-management/domain": [
+        "libs/user-management/domain/src/index.ts"
+      ],
+      "@ims/user-management/feature-home": [
+        "libs/user-management/feature-home/src/index.ts"
+      ],
+      "@ims/user-management/feature-user": [
+        "libs/user-management/feature-user/src/index.ts"
+      ],
+      "@ims/user-management/ui-tpa": [
+        "libs/user-management/ui-tpa/src/index.ts"
+      ],
+      "@ims/user-management/util-theme": [
+        "libs/user-management/util-theme/src/index.ts"
+      ],
+      "@sms/student-management/domain": [
+        "libs/student-management/domain/src/index.ts"
+      ],
+      "@sms/student-management/feature-home": [
+        "libs/student-management/feature-home/src/index.ts"
+      ],
+      "@sms/student-management/feature-student": [
+        "libs/student-management/feature-student/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
